@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    {% load staticfiles %}
+     <link href="{% static './css/memory.css' %}" rel='stylesheet' type='text/css'>
+
+</head>
+<body onload="memoryGame.start()">
+<div id="game-board">
+    <div id="title">Welcome to our memory game</div>
+    <br>
+    <br>
+
+</div>
+<script src="{% static './js/memory.js' %}" type="text/javascript"></script>
+</body>
+</html>
