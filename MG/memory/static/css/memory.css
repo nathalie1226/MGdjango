@@ -1,17 +1,19 @@
 
 
 body{
-    background: url(../images/bg.jpg) no-repeat center fixed;
+    background: url(../images/forest.jpeg) no-repeat center fixed;
     background-size: cover;
+
 
 
 }
 
 #title{
-    text-align:center;
-    font-size:25px;
-    margin-top:20px;
-    display:block;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    display: block;
+    font-weight: bold;
 }
 
 .card{
@@ -22,6 +24,7 @@ body{
     border-radius:6px;
     background-size:cover;
     display:inline-block;
+
 }
 
 #game-board{
